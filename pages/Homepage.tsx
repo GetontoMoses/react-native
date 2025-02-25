@@ -4,14 +4,14 @@ import { StyleSheet, Text, View, Button } from "react-native";
 
 const Stack = createStackNavigator();
 
-export default function HomeScreen ({navigation}) {
+export default function HomeScreen () {
     return (
       <View style={styles.container}>
         {" "}
         <Text style={styles.title}>Welcome to Home page</Text>
         <Button
           title="Go to Profile"
-          onPress={() => navigation.navigate("Profile")}
+          
         />
       </View>
     );
