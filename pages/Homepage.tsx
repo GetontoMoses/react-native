@@ -8,7 +8,7 @@ export default function HomeScreen () {
     return (
       <View style={styles.container}>
         {" "}
-        <Text style={styles.title}>Welcome to Home page</Text>
+        <Text style={styles.title}> Home page</Text>
         <Button
           title="Go to Profile"
           
