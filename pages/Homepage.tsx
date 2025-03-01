@@ -10,7 +10,7 @@ export default function HomeScreen () {
         {" "}
         <Text style={styles.title}> Home page</Text>
         <Button
-          title="Go to Profile"
+          title="Profile page"
           
         />
       </View>
