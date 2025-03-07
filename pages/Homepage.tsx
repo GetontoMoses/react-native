@@ -9,7 +9,7 @@ export default function HomeScreen () {
       <View style={styles.container}>
         <Text style={styles.title}> Home</Text>
         <Button
-          title="Profile page"
+          title="Profile"
         />
       </View>
     );
